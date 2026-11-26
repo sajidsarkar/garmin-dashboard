@@ -7,7 +7,12 @@ authors = [
     { name = "Sajid Sarkar", email = "sajid.sarkar123@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "databricks-sdk>=0.171.0",
+    "databricks-sql-connector>=4.10.0",
+    "pandas>=2.3.3",
+    "streamlit>=1.65.0",
+]
 
 [project.scripts]
 garmin-dashboard = "garmin_dashboard:main"
