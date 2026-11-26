@@ -2,7 +2,6 @@
 name = "garmin-dashboard"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
 authors = [
     { name = "Sajid Sarkar", email = "sajid.sarkar123@gmail.com" }
 ]
